@@ -1,0 +1,15 @@
+.rotape{
+    text-align: center;
+    background-color: #000000;
+    color: var(--branco);
+    height: 3rem;
+}
+
+.rotape__texto{
+    position: relative;
+    top: 1rem;
+}
+
+.rotape__link:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple carousel.js</title>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
+    <link rel="stylesheet" href="assets/css/propriedades.css">
+    <link rel="stylesheet" href="assets/css/rotape.css">
+</head>
+<body>
+    <header>
+    
+    </header>
+    <footer class="cabecalho">
+        <h1><img class="cabecalho__logo" src="assets/img/logo.png" alt="Logo"></h1>
+            <a class="cabecalho__botao cabecalho__botao--download" href="#"><i class="fa fa-download"></i> Download</a>
+            <a class="cabecalho__botao cabecalho__botao--github" href="#"><i class="fa fa-github"></i> Github</a>
+    </footer>
+    <main>
+        <section>
+            <div class="carousel" data-touch ondragstart="return false;">
+                <button class="carousel__botao carousel__botao--anterior" data-anterior aria-label="Botão de voltar"></button>
+                <button class="carousel__botao carousel__botao--proximo" data-proximo aria-label="Botão de avançar"></button>
+                    <ul class="carousel__lista" data-lista>
+                        <li class="carousel__item">
+                            <div class="carousel__imagem-container">
+                                <p class="carousel__imagem-texto">Primeiro Texto</p>
+                                <img src="assets/img/imagem1.png" alt="" class="carousel__imagem" >
+                            </div>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="carousel__imagem-container">
+                                <p class="carousel__imagem-texto">Segundo Texto</p>
+                                <img src="assets/img/imagem2.png" alt="" class="carousel__imagem">
+                            </div>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="carousel__imagem-container">
+                                <p class="carousel__imagem-texto">Terceiro Texto</p>
+                                <img src="assets/img/imagem3.png" alt="" class="carousel__imagem">
+                            </div>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="carousel__imagem-container">
+                                <p class="carousel__imagem-texto">Quarto Texto</p>
+                                <img src="assets/img/imagem4.png" alt="" class="carousel__imagem">
+                            </div>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="carousel__imagem-container">
+                                <p class="carousel__imagem-texto">Quinto Texto</p>
+                                <img src="assets/img/imagem5.png" alt="" class="carousel__imagem">
+                            </div>
+                        </li>
+                    </ul>
+                
+                <div class="carousel__indicadores" data-navegacao>
+                    <button class="carousel__indicador carousel__indicador--ativo" data-indicador="0" aria-label="Slide 1"></button>
+                    <button class="carousel__indicador" data-indicador="1" aria-label="Slide 2"></button>
+                    <button class="carousel__indicador" data-indicador="2" aria-label="Slide 3"></button>
+                    <button class="carousel__indicador" data-indicador="3" aria-label="Slide 4"></button>
+                    <button class="carousel__indicador" data-indicador="4" aria-label="Slide 5"></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="propiedades">
+            <h2 class="propiedades__titulo">Propiedades</h2>
+            <ul>
+                <li>
+                    <img class="propiedades__imagem" src="assets/img/toque.png" alt="Imagem Toque e Clique">
+                    <h3 class="propiedades__subtitulo">Suporte para toque e arraste</h3>
+                    <p class="propiedades__descricao">Projetado especialmente para a experiência de navegação móvel. 
+                        O arrasto do mouse também funciona facilitando o uso.</p>
+                </li>
+                <li>
+                    <img class="propiedades__imagem" src="assets/img/responsivo.png" alt="Imagem Responsivo">
+                    <h3 class="propiedades__subtitulo">Responsivo</h3>
+                    <p class="propiedades__descricao">Imagens com largura flexível. Animação atualizada a qualquer
+                        alteração na largura do navegador.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="rotape">
+        <span class="rotape__texto">Dev: <a class="rotape__link" href="#">Brendow Vaz</a></span>
+    </footer>
+    <script src="assets/js/index.js" type="module"></script>
+</body>
+</html>

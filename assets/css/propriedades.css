@@ -1,0 +1,35 @@
+.propiedades{
+    text-align: center;
+}
+
+.propiedades__titulo{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.propiedades__imagem{
+    width: 200px;
+    margin-top: 3rem;
+}
+
+.propiedades__subtitulo{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.propiedades__descricao{
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 700px;
+    margin: 1rem auto;
+    text-align: left;
+    line-height: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+
+    .propiedades__descricao{
+        width: 90%;
+    }
+}

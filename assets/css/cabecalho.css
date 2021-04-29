@@ -1,0 +1,29 @@
+.cabecalho{
+    text-align: center;
+    background-color: #000000;
+    padding: 3rem;
+}
+
+.cabecalho__logo{
+    width: 200px;
+    margin-bottom: 3rem;
+}
+
+.cabecalho__botao{
+    padding: 1.3rem;
+    margin: .3rem;
+    font-size: 1.2rem;
+    width: 200px;
+    color: var(--branco);
+    border: solid 1px var(--branco);
+    border-radius: 10px 0 0 10px;
+    transition: .5s;
+}
+
+.cabecalho__botao--download:hover{
+    background-color: var(--azul);
+}
+
+.cabecalho__botao--github:hover{
+    background-color: var(--amarelo);
+}

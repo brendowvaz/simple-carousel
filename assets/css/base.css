@@ -1,0 +1,7 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+
+body {
+    font-family: 'Overpass', sans-serif;
+    color: var(--preto);
+}
