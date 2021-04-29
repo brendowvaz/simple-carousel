@@ -1,5 +1,5 @@
-@import url(_reset.css);
-@import url(_variaveis.css);
+@import url(reset.css);
+@import url(variaveis.css);
 
 body {
     font-family: 'Overpass', sans-serif;
