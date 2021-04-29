@@ -104,5 +104,6 @@
     .carousel__imagem-texto {
         width: 80%;
         border-radius: 10px 0 0 10px;
+        font-size: 3rem;
     }
 }
