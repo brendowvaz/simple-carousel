@@ -26,14 +26,14 @@
 .carousel__botao--anterior {
     left: 0;
     margin-left: 1rem;
-    background-image: url(../img/seta-esquerda.svg);
+    background-image: url(../../img/seta-esquerda.png);
     background-position: .8rem center;
 }
 
 .carousel__botao--proximo {
     right: 0;
     margin-right: 1rem;
-    background-image: url(../img/seta-direita.svg);
+    background-image: url(../../img/seta-direita.png);
     background-position: .95rem center;
 }
 
