@@ -13,7 +13,7 @@
     padding: 1.3rem;
     margin: .3rem;
     font-size: 1.2rem;
-    width: 200px;
+    width: 150px;
     color: var(--branco);
     border: solid 1px var(--branco);
     border-radius: 10px 0 0 10px;
@@ -26,4 +26,13 @@
 
 .cabecalho__botao--github:hover{
     background-color: var(--amarelo);
+}
+
+@media screen and (max-width: 800px) {
+
+    .cabecalho__botoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
